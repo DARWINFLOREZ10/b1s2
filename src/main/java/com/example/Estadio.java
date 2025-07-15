@@ -1,9 +1,9 @@
 package com.example;
 
 public class Estadio {
-     public String nombre;
-    public String ciudad;
-    public int capacidad;
+    String nombre;
+    String ciudad;
+    int capacidad;
 
     public void mostrarInformacion() {
         System.out.println("Nombre: " + nombre);
